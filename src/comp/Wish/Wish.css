@@ -1,0 +1,26 @@
+.Wish {
+  display: none;
+  position: absolute;
+  max-height: 100%;
+  background-color: aliceblue;
+  right: 0;
+  top: 80px;
+  width: 500px;
+  padding: 10px;
+}
+
+.Wish.visible {
+  display: block;
+}
+
+.Wish>.header {
+  margin-bottom: 20px;
+  display: flex;
+  padding: 5px;
+}
+
+.Wish>.items {
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: -20px;
+}

@@ -1,0 +1,31 @@
+.Loading {
+  display: none;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  opacity: .95;
+  background-color: aliceblue;
+}
+
+.Loading.active {
+  display: block;
+}
+
+.Loading>.indicator {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 100px;
+  width: 100px;
+  background-color: aliceblue;
+  animation: 1s infinite pulse ease-out alternate;
+}
+
+@keyframes pulse {
+  100% {
+    background-color: aquamarine;
+  }
+}

@@ -1,0 +1,23 @@
+.CartItem {
+  display: flex;
+  padding: 5px;
+}
+
+.CartItem>* {
+  padding: 5px;
+}
+
+.CartItem>.count {
+  width: 40px;
+  margin-left: auto;
+}
+
+.CartItem>.total {
+  width: 45px;
+  text-align: right;
+}
+
+.CartItem>.remove:hover {
+  color: red;
+  cursor: pointer;
+}

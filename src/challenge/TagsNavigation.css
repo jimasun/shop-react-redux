@@ -1,0 +1,11 @@
+.tagsNavigation {
+  width: 340px;
+  height: 286px;
+  border-radius: 5px;
+  border: 1px solid #f8f8f8;
+  box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.1);
+}
+
+.tagsNavigation.closed {
+  display: none;
+}

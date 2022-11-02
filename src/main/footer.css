@@ -1,0 +1,9 @@
+footer {
+    min-height: 5vh;
+    padding-bottom: 5px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    box-sizing: border-box;
+    font-style: italic;
+  }

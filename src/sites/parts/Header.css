@@ -1,0 +1,36 @@
+.Header {
+  display: flex;
+  height: 60px;
+  background-color: aliceblue;
+  line-height: 60px;
+  padding: 10px 20px;
+  font-family: Georgia;
+}
+
+.Header .link {
+  display: flex;
+  text-decoration: none;
+  color: inherit;
+}
+
+.Header>.link>.title {
+  margin-left: 8px;
+}
+
+.Header>.wish {
+  margin-left: auto;
+}
+
+.Header>.wish,
+.Header>.cart {
+  padding: 0 8px;
+  cursor: pointer;
+}
+
+.Header>.wish:hover {
+  color: red;
+}
+
+.Header>.cart:hover {
+  color: green;
+}

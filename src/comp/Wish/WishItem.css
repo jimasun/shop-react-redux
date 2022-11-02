@@ -1,0 +1,35 @@
+.WishItem {
+  width: 100px;
+  height: 200px;
+  position: relative;
+  padding: 20px;
+}
+
+.WishItem>.image {
+  background-color: aliceblue;
+  text-align: center;
+}
+
+.WishItem>.image>img {
+  max-width: 100px;
+  max-height: 200px;
+}
+
+.WishItem .addToCart,
+.WishItem .removeFromWish {
+  position: absolute;
+  cursor: pointer;
+}
+
+.WishItem .removeFromWish {
+  top: 50px;
+  left: 20px;
+  color: green;
+}
+
+.WishItem .addToCart {
+  top: 50px;
+  left: 50px;
+  color: violet;
+  
+}

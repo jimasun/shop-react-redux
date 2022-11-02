@@ -1,0 +1,25 @@
+.categories {
+    width: stretch;
+    height: 40px;
+    border-bottom: 1.3px solid #dfdfdf;
+    text-align: left;
+}
+
+.category {
+    display: inline-flex;
+    height: 40px;
+    margin-left: 20px;
+    align-items: center;
+    cursor: pointer;
+    color: #000000;
+}
+
+.category:hover {
+    color: #4ea64c;
+}
+
+.category.selected {
+    color: #65b366;
+    font-weight: 600;
+    border-bottom: 1.3px solid #65b366;
+}

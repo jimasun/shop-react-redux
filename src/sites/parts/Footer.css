@@ -1,0 +1,10 @@
+.Footer {
+  height: 60px;
+  background-color: aliceblue;
+  line-height: 60px;
+  padding: 10px 20px;
+  font-family: Georgia;
+  font-size: 12px;
+  text-align: center;
+  margin-top: auto;
+}

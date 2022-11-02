@@ -1,0 +1,58 @@
+.ShopItem {
+  flex: 0 1 230px;
+  padding: 20px;
+}
+
+.ShopItem .image {
+  height: 300px;
+  text-align: center;
+  background-color: aliceblue;
+  padding: 20px;
+}
+
+.ShopItem .image img {
+  max-width: 230px;
+  max-height: 300px;
+}
+
+.ShopItem .title {
+  float: none;
+  font-style: italic;
+}
+
+.ShopItem .author {
+  font-size: 14px;
+  color: gray;
+}
+
+.ShopItem .details {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  height: 100px;
+}
+
+.ShopItem .interact {
+  margin-top: auto;
+}
+
+.ShopItem .interact .price {
+  float: left;
+}
+
+.ShopItem .interact .cart,
+.ShopItem .interact .whish {
+  float: right;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.ShopItem .interact .cart.true,
+.ShopItem .interact .cart:hover {
+  color: green;
+}
+
+.ShopItem .interact .whish.true,
+.ShopItem .interact .whish:hover {
+  color: red;
+}

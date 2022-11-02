@@ -1,0 +1,34 @@
+.tags {
+    max-width: 440px;
+    margin-top: 40px;
+    gap: 10px;
+    cursor: default;
+}
+
+.tag {
+    display: inline-flex;
+    align-items: flex-start;
+    box-sizing: border-box;
+    align-items: center;
+
+    margin: 0 10px 10px 0;
+
+    height: 25px;
+    padding: 6px;
+    border-radius: 50px;
+
+    color: #323a63;
+    background-color: #f1f5f5;
+    letter-spacing: -0.05px;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.tag>.close {
+    height: 14px;
+    width: 14px;
+    margin-left: 4px;
+    background-image: url("icons/close.svg");
+
+    cursor: pointer;
+}

@@ -1,0 +1,76 @@
+.entries {
+    display: none;
+}
+
+.entries.selected {
+    display: inline-block;
+}
+
+.entry {
+    width: stretch;
+    height: 33px;
+    margin: 0 10px;
+
+    padding-left: 10px;
+
+    display: inline-flex;
+    align-items: center;
+
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.entry:hover {
+    color: #FFFFFF;
+    background-color: #99cc98;
+}
+
+.entry:active {
+    color: #FFFFFF;
+    background-color: #339933;
+}
+
+.entry.selected {
+    color: #FFFFFF;
+    background-color: #d4d4d4;
+}
+
+.entry>.icon {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    background: #ffffff;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+
+    background-size: 17px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+
+    background-image: url("icons/user.svg");
+}
+
+.entry>.icon.user {
+    background-image: url("icons/user.svg");
+}
+
+.entry>.icon.active-campaign {
+    background-image: url("icons/active-campaign.svg");
+}
+
+.entry>.icon.google-analytics {
+    background-image: url("icons/google-analytics.svg");
+}
+
+.entry>.icon.instagram {
+    background-image: url("icons/instagram.svg");
+}
+
+.entry>.icon.woocommerce {
+    background-image: url("icons/woocommerce.svg");
+}
+
+.entry>.icon.shopify {
+    background-image: url("icons/shopify.svg");
+}
